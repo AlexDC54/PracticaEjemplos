@@ -1,0 +1,8 @@
+<h1>USUARIOS</h1>
+
+{%for usuario in datos%}
+<h2>{{usuario.first_name}} {{usuario.last_name}}</h2>
+<p>Correo: {{usuario.email}}</p>
+<img src="{{usuario.avatar}}"/>
+<hr>
+{% endfor %} 
