@@ -23,5 +23,8 @@ urlpatterns = [
     path('',views.principal,name='Principal'),
     path('principal/',views.principal,name='Principal'),
     path('mensajes/', views.mensajes, name='mensajes'),
+    path('subir/', views.archivos, name="Subir"),
 
 ]
+
+# ESTE SI SIRVE

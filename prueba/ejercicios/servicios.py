@@ -16,4 +16,4 @@ def obtenersms():
     if response.status_code == 200:
         mensajes = response.json()
         return mensajes[:5]  
-    return ''
+    return {}
